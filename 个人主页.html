@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>我的个人主页</title>
+	<style>
+		/* 清除浮动 */
+		.container {
+      overflow: hidden;
+    }
+    
+    /* 左侧栏目样式 */
+    .left-column {
+      /* 浮动到左侧 */
+      float: left;
+      /* 宽度占据整个容器的 30% */
+      width: 17.5%;
+      /* 背景色为淡灰色 */
+      background-color: #f0f0f0;
+      /* 左侧栏目的内边距 */
+      padding: 20px;
+    }
+    
+    /* 右侧主要内容样式 */
+    .right-column {
+      /* 左外边距占据整个容器的 30% */
+      margin-left: 17.5%;
+      /* 右侧主要内容的内边距 */
+      padding: 20px;
+    }
+	/* 图片样式 */
+    .headshot {
+      /* 宽度为 1 寸 */
+      width: 150px;
+      /* 圆角为 50% */
+      border-radius: 0%;
+      /* 居中显示 */
+      display: block;
+      margin: 0 auto 20px;
+    }
+		body {
+			background-color: #e0dedc;
+			font-family: "Microsoft YaHei", sans-serif;
+			color: #333;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: rgb(216, 216, 212);
+			padding: 20px;
+			box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+			position: sticky;
+			top: 0;
+			z-index: 999;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			color: #333;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: all 0.2s ease-in-out;
+		}
+		nav a:hover {
+			color: rgb(253, 249, 246);
+		}
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px;
+		}
+		h2 {
+			font-size: 24px;
+			color: #333;
+			margin-top: 0;
+		}
+		p {
+			font-size: 18px;
+			color: #666;
+			margin-top: 0;
+		}
+		ul {
+			margin-top: 0;
+		}
+		li {
+			margin-top: 10px;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 20px 0;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1>欢迎来到我的个人主页</h1>
+		<nav>
+			<ul>
+				<li><a href="#education">教育经历</a></li>
+				<li><a href="#my-skill">我的技能</a></li>
+				<li><a href="#my-work">我的作品</a></li>
+				<li><a href="#my-reward">我获的奖</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- 页面容器 -->
+	<div class="container">
+		<!-- 左侧栏目 -->
+		<div class="left-column">
+		  <h2>个人信息：</h2>
+		  <img src="photo/6f58da49be193040.png" alt="wdzp"class=headshot>
+		  <p>姓名：蔡倩文</p>
+		  <p>性别：女</p>
+		  <p>年龄:20</p>
+		  <p>学校：福建工程学院</p>
+		  <p><a href="https://www.fjut.edu.cn/main.htm">学校网址</a></p>
+		  <p>联系电话：18259824763</p>
+		  <p>QQ邮箱:2674923216@qq.com</p>
+		
+
+		</div>
+			
+
+		<div class="right-column">
+		</section>
+		<section id="education">
+			<h2>教育经历</h2>
+			<ul>
+				<li>学校：福建工程学院</li>
+				<li>专业：数据科学与大数据技术</li>
+			</ul>
+		</section>
+		<section id="my-kills">
+			<h2>我的技能</h2>
+			<li>曾学习C语言，python等语言</li>
+			<li>了解SQL server软件以及sql编程语言</li>
+			<li>Java语言（正在学习） </li>
+			<li>街舞</li>
+			
+		</section>
+		<section id="my-work">
+			<h2>我的作品</h2>
+			<ul>
+				<li>
+					<h3>图书管理系统</h3>
+					<p>这是我数据库的课程设计，使用SQL server编程语言制作的一个简单的图书管理系统</p>
+				</li>
+			</ul>
+		</section>
+		<section id="my-reward">
+			<h2>我获的奖</h2>
+			<ul>
+				<li><p>暂无</p></li>
+			</ul>
+
+		</section>
+		  </div>
+			
+		
+			
+			
+		</main>
+		
+		
